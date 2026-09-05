@@ -1,6 +1,6 @@
 const allQuizCollections = {
 
-Acronyms A-E: [
+"Acronyms A-E": [
 
 { term:	"2FA: Two-factor Authentication", def: "A specific identity verification method that requires users to provide two distinct forms of identification before gaining access to an account or system."},
 
@@ -12,7 +12,7 @@ Acronyms A-E: [
 
 { term:	"AES: Advanced Encryption Standard", def: "A symmetric-key block cipher chosen by the U.S. government to protect classified information. It is implemented worldwide in software and hardware to encrypt sensitive data. It replaced the older Data Encryption Standard (DES) and Triple DES (3DES)."},
 
-{ term:	"AES-256: Advanced Encryption Standard 256-bit", def: "The most secure configuration of the Advanced Encryption Standard (AES) symmetric-key block cipher. It utilizes a secret key length of 256 bits to encrypt and decrypt fixed 128-bit blocks of data. It is globally recognized as the gold standard for data encryption and is approved by the U.S. National Security Agency (NSA) to protect data classified up to the "Top Secret" level."},
+{ term:	"AES-256: Advanced Encryption Standard 256-bit", def: "The most secure configuration of the Advanced Encryption Standard (AES) symmetric-key block cipher. It utilizes a secret key length of 256 bits to encrypt and decrypt fixed 128-bit blocks of data. It is globally recognized as the gold standard for data encryption and is approved by the U.S. National Security Agency (NSA) to protect data classified up to the 'Top Secret' level."},
 
 { term:	"AH: Authentication Header", def: "A core security protocol within the Internet Protocol Security (IPsec) suite. It operates directly at the network layer (OSI Layer 3) under IP protocol number 51. Its primary objective is to verify that data packets originate from a trusted source and remain untampered with during transit."},
 
@@ -162,7 +162,7 @@ Acronyms A-E: [
 
 { term:	"ECDHE: Elliptic Curve Diffie-Hellman Ephemeral", def: "It is a highly secure, high-performance cryptographic protocol used to establish a shared symmetric secret key over an untrusted network. It is an asymmetric mechanism used strictly for key exchange (agreeing on a shared secret), not for encrypting bulk data or creating digital signatures."},
 
-{ term:	"ECDSA: Elliptic Curve Digital Signature Algorithm", def: "It is a cryptographic protocol used to generate and verify digital signatures using the principles of elliptic curve cryptography. "It provides authenticity (verifies the identity of the signer), integrity (proves the message was not altered), and non-repudiation (the signer cannot deny sending the message).},
+{ term:	"ECDSA: Elliptic Curve Digital Signature Algorithm", def: "It is a cryptographic protocol used to generate and verify digital signatures using the principles of elliptic curve cryptography. It provides authenticity (verifies the identity of the signer), integrity (proves the message was not altered), and non-repudiation (the signer cannot deny sending the message)."},
 
 { term:	"EDR: Endpoint Detection and Response", def: "It is an advanced, centralized security solution that continuously monitors client devices (such as laptops, desktops, and servers) to detect, investigate, and automatically mitigate malicious behavior."},
 
