@@ -178,29 +178,312 @@ const allQuizCollections = {
 
 ],
 
-science: [
+"Acronyms F-K": [
 
-{ term: "Atom", def: "The basic unit of a chemical element." },
+{ term:	"FACL: File System Access Control List", def: "It is an OS-level security mechanism that specifies exactly which users or system groups are granted access to specific files or directories, along with the precise operations (read, write, execute) they are allowed to perform."},
 
-{ term: "Gravity", def: "A force that attracts two bodies towards each other." },
+{ term:	"FDE: Full Disk Encryption", def: "It is a cryptographic security control that encrypts every bit of data that goes onto a storage drive—including the operating system, system files, user data, and swap space. Its primary purpose is to maintain data confidentiality for devices that are turned off, lost, or physically stolen. Data-at-Rest Protection."},
 
-{ term: "Photosynthesis", def: "The process by which green plants create energy from sunlight." },
+{ term:	"FIM: File Integrity Monitoring", def: "It is an internal security control that validates the integrity of operating system and application files by comparing their current state against a known, trusted baseline. Uses hashing algorithms."},
 
-{ term: "Evolution", def: "The process by which different kinds of living organisms are thought to have developed." }
+{ term:	"FPGA: Field Programmable Gate Array", def: "It is an integrated circuit (chip) designed to be configured or programmed by a customer or a designer after manufacturing, rather than being frozen at the factory."},
+
+{ term:	"FRR: False Rejection Rate", def: "It is a key metric used to evaluate the accuracy and performance of biometric authentication systems (such as fingerprint scanners, facial recognition, or iris scanners)."},
+
+{ term:	"FTP: File Transfer Protocol", def: "It is a legacy network protocol used to transfer files between a client and a server over a TCP/IP network."},
+
+{ term:	"GCM: Galois Counter Mode", def: "It is an advanced, highly efficient mode of operation for symmetric block ciphers (most commonly paired with AES to create AES-GCM)."},
+
+{ term:	"GDPR: General Data Protection Regulation", def: "It is a comprehensive data privacy and security law enacted by the European Union (EU) that imposes strict obligations on organizations anywhere in the world, as long as they collect or analyze data related to people in the EU."},
+
+{ term:	"GPG: Gnu Privacy Guard", def: "It is a free, open-source command-line tool used to implement the OpenPGP standard for data encryption and digital signatures. It uses a hybrid cryptographic system. It combines highly efficient symmetric encryption (for bulk data speed) with asymmetric public-key cryptography (for secure key exchange and ease of distribution)."},
+
+{ term:	"GPO: Group Policy Object", def: "Is a collection of configuration settings built into Microsoft Active Directory that allows administrators to centrally manage and enforce security policies across users and computers in a Windows domain."},
+
+{ term:	"GPS: Global Positioning System", def: "Is a satellite-based navigation network used to determine the precise geographical location, speed, and time direction of an object or device on Earth."},
+
+{ term:	"GPU: Graphics Processing Unit", def: "It is a highly specialized electronic circuit designed to manipulate and alter memory rapidly to accelerate the creation of images in a frame buffer intended for output to a display."},
+
+{ term:	"GRE: Generic Routing Encapsulation", def: "It is a network tunneling protocol developed by Cisco that encapsulates a wide variety of network-layer protocol packet types inside virtual point-to-point links over an Internet Protocol network."},
+
+{ term:	"HA: High Availability", def: "It is a system design approach and set of associated controls aimed at ensuring an application, service, or infrastructure component remains operational and accessible to users for a targeted percentage of time, minimizing unscheduled downtime."},
+
+{ term:	"HDD: Hard Disk Drive", def: "It is a traditional, electro-mechanical non-volatile data storage device that uses magnetic storage with rapidly rotating physical platters to read and write digital information."},
+
+{ term:	"HIDS: Host-based Intrusion Detection System", def: "It is a software application installed locally on an individual endpoint (such as a server, workstation, or laptop) that monitors the system for unauthorized or malicious activity."},
+
+{ term:	"HIPS: Host-based Intrusion prevention System", def: "It is an active security application installed locally on an individual endpoint (such as a laptop, workstation, or server) that monitors the system for malicious activity and automatically takes action to block or mitigate the threat."},
+
+{ term:	"HMAC: Hashed Message Authentication Code", def: "It is a specific cryptographic mechanism that combines a cryptographic hash function (like SHA-256) with a secret cryptographic key to simultaneously verify both the data integrity and the authenticity of a message."},
+
+{ term:	"HTOP: HMAC-based One-time Password", def: "It is an open standard algorithm used to generate a secure, single-use password for Multi-Factor Authentication (MFA). It generates a one-time password based on a mathematical counter. Every time the user requests a new token or presses the button on a physical MFA fob, the counter increments by 1."},
+
+{ term:	"HSM: Hardware Security Module", def: "It is a dedicated, physical cryptographic device designed to securely manage, process, and store cryptographic keys. It is a piece of enterprise hardware (often a plug-in card or an external network appliance) that contains specialized, tamper-evident cryptographic processors. If it detects physical tampering (like someone trying to drill into the chip), it can trigger a self-destruction sequence to erase its keys."},
+
+{ term:	"HTML: Hypertext Markup Language", def: "It is the standard markup language used to create and structure the layout, text, links, and multimedia elements displayed on a web page."},
+
+{ term:	"HTTP: Hypertext Transfer Protocol", def: "Is the foundational protocol used by web browsers and servers to communicate and transfer data across the internet."},
+
+{ term:	"HTTPS: Hypertext Transfer Protocol Secure", def: "Is the secure version of HTTP. It wraps standard web traffic inside a cryptographic layer to completely eliminate cleartext sniffing vulnerabilities."},
+
+{ term:	"HVAC: Heating, Ventilation, Air Conditioning", def: "Availability and Environmental Control: High-end servers, switches, and routers generate immense amounts of heat. If it fails, server rooms will overheat rapidly, causing hardware components to melt, data to corrupt, and systems to shut down, directly violating the Availability pillar of the CIA Triad."},
+
+{ term:	"IaaS: Infrastructure as a Service", def: "A cloud computing model where you rent core IT hardware like servers, storage, and networking over the internet. Instead of buying physical machines, you pay only for what you use on a flexible, pay-as-you-go basis. AWS, Azure, Google Cloud."},
+
+{ term:	"IaC: Infrastructure as Code", def: "A practice where you manage and provision IT infrastructure using machine-readable configuration files instead of manual processes. It allows you to treat your servers, networks, and storage just like software code."},
+
+{ term:	"IAM: Identity and Access Management", def: "A security framework of policies and technologies that ensures the right people and devices have the correct access to technology resources. It acts as the digital security guard for an organization's network, applications, and cloud environments."},
+
+{ term:	"ICMP: Internet Control Message Protocol", def: "A network-layer protocol used by network devices to diagnose communication issues. It is primarily used to check if data is reaching its destination in a timely manner. Error reporting, Network Diagnostics(Ping, traceroute), Flow Control"},
+
+{ term:	"ICS: Industrial Control Systems", def: "A collective term for the integrated hardware, software, and networks used to monitor, control, and automate physical industrial processes"},
+
+{ term:	"IDEA: International Data Encryption Algorithm", def: "An older, symmetric-key block cipher that was originally designed in 1991 to replace the aging Data Encryption Standard (DES)."},
+
+{ term:	"IDF: Intermediate Distribution Frame", def: "A secondary, standalone hardware rack or 'telecom closet' that bridges the gap between end-user devices and the building's main network hub."},
+
+{ term:	"IdP: Identity Provider", def: "A centralized system or service that creates, maintains, and manages digital identities while providing authentication services to software applications. It serves as the trusted 'single source of truth' for proving exactly who a user or device is across a network"},
+
+{ term:	"IDS: Intrusion Detection System", def: "A network security technology that monitors network traffic and system activity for malicious behavior or policy violations. Think of it as a digital security camera or burglar alarm that detects threats and alerts administrators, but does not stop the attack on its own."},
+
+{ term:	"IEEE: Institute of Electrical and Electronics Engineers", def: "It is the world’s largest technical professional organization, dedicated to advancing technological innovation and excellence for the benefit of humanity."},
+
+{ term:	"IKE: Internet Key Exchange", def: "A foundational network security protocol used to securely set up an encrypted communication channel between two devices. It acts as the 'digital handshake' that establishes trust, validates identities, and shares cryptographic keys before any actual data is transmitted."},
+
+{ term:	"IM: Instant Message", def: "Refers to a type of online chat that offers real-time text transmission over the internet."},
+
+{ term:	"IMAP: Internet Message Access Protocol", def: "A standard network protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection. It allows you to access and manage your email from any device, anywhere in the world. Ports 143/993."},
+
+{ term:	"IoC: Indicator of Compromise", def: "A piece of digital forensic data found on a network or computer that strongly suggests a system has been breached or malicious activity has occurred. Think of it as physical evidence at a crime scene, like a fingerprint or broken window."},
+
+{ term:	"IoT: Internet of Things", def: "It refers to the billions of physical devices around the world that are now connected to the internet, all collecting and sharing data."},
+
+{ term:	"IP: Internet Protocol", def: "The fundamental set of rules that governs how data packets are addressed and routed across the internet. It ensures that data sent from one computer successfully reaches its intended destination device."},
+
+{ term:	"IPS: Intrusion Prevention System", def: "A network security technology that monitors network traffic to detect malicious activity and actively steps in to stop, block, or drop the threat in real-time."},
+
+{ term:	"IPSec: Internet Protocol Security", def: "A framework of open standards and cryptographic protocols that secures data traffic flowing across public networks. It operates at the Network Layer (Layer 3) of the OSI model to provide encrypted communication between devices, most commonly powering Virtual Private Networks (VPNs)."},
+
+{ term:	"IR: Incident Response", def: "A structured organizational process used by cybersecurity teams to detect, respond to, contain, and recover from a cyberattack, data breach, or security incident. The main objective of IR is to minimize operational damage, reduce financial losses, and restore normal business services as quickly as possible."},
+
+{ term:	"IRC: Internet Relay Chat", def: "A classic, text-based network protocol designed for real-time, multi-user conversation over the internet."},
+
+{ term:	"IRP: Incident Response Plan", def: "A formal, written document that outlines an organization's step-by-step strategy for detecting, responding to, and recovering from a cybersecurity incident or data breach. It acts as a concrete playbook so that technical teams, executives, and legal staff can act instantly and cohesively during a high-stress crisis."},
+
+{ term:	"ISO: International Organization for Standardization", def: "An independent, non-governmental global federation composed of national standards bodies from over 160 countries that develop voluntary, consensus-based international standards that ensure the quality, safety, efficiency, and interoperability of products, services, and systems."},
+
+{ term:	"ISP: Internet Service Provider", def: "A company that provides individuals, businesses, and organizations with access to the internet. They own, manage, and maintain the complex network infrastructure that routes digital data between your home or office and the global web."},
+
+{ term:	"ISSO: Information Systems Security Officer", def: "A cybersecurity professional responsible for implementing, maintaining, and enforcing the security policies and technical controls of a specific information system."},
+
+{ term:	"IV: Initialization Vector", def: "A fixed-size, random or pseudo-random number used as an initial input alongside a secret key to encrypt data. Its primary purpose is to ensure that encrypting the same plaintext twice with the exact same key always produces completely different, unique ciphertext."},
+
+{ term:	"KDC: Key Distribution Center", def: "A centralized network service used in cryptography to reduce the risks of distributing encryption keys. Its primary role is to act as a trusted third party that safely provides secret keys to users and services so they can authenticate each other and communicate securely."},
+
+{ term:	"KEK: Key Encryption Key", def: "A dedicated cryptographic key used solely to encrypt and protect other cryptographic keys (known as Data Encryption Keys or DEKs). It is a foundational concept in enterprise key management and envelope encryption, ensuring that keys used to protect actual files are never left exposed in plain text."},
 
 ],
 
-history: [
+"Acronyms L-Q": [
 
-{ term: "Renaissance", def: "A period of cultural rebirth in Europe." },
+{ term:	"L2TP: Layer 2 Tunneling Protocol", def: "A computer networking protocol used by Internet Service Providers (ISPs) and corporate networks to support Virtual Private Networks (VPNs). It works by encapsulating (tunneling) Layer 2 data packets (like PPP frames) inside Layer 3 packets so they can travel securely across public networks."},
 
-{ term: "Industrial Revolution", def: "The transition to new manufacturing processes in the 18th and 19th centuries." },
+{ term:	"LAN: Local Area Network", def: "A computer network that connects devices within a limited geographic area, typically a single building, home, school, or office. It allows connected devices like computers, printers, and servers to share data, files, and resources quickly and securely."},
 
-{ term: "Cold War", def: "A state of political tension between the Soviet Union and the United States." },
+{ term:	"LDAP: Lightweight Directory Access Protocol", def: "An open, vendor-neutral application protocol used to look up, manage, and authenticate user credentials and device information over an IP network. It acts as a digital phone book for an enterprise network, allowing multiple separate applications to quickly query a single, central database to verify who a user is and what they are allowed to access. Ports 389/636"},
 
-{ term: "French Revolution", def: "A period of radical social and political change in France." }
+{ term:	"LEAP: Lightweight Extensible Authentication Protocol", def: "A proprietary wireless authentication protocol developed by Cisco Systems in December 2000. It was designed as an early, temporary fix to address severe security vulnerabilities in the original WEP (Wired Equivalent Privacy) Wi-Fi standard."},
+
+{ term:	"MaaS: Monitoring as a Service", def: "A cloud computing delivery model where an organization outsources its infrastructure tracking and security monitoring tools to a third-party vendor"},
+
+{ term:	"MAC: Mandatory Access Control", def: "A strict security access model where a central authority (like a system administrator or security policy) tightly restricts user access to resources based on information sensitivity labels."},
+
+{ term:	"MAC: Media Access Control", def: "Refers to two distinct but closely related concepts: the unique physical address assigned to a network device, and the specific sublayer of the OSI model that manages how devices physically share a network cable or wireless frequency."},
+
+{ term:	"MAC: Message Authentication Code", def: "A short piece of cryptographic data used to verify both the authenticity and the data integrity of a digital message. It confirms that a received message was sent by the stated sender and has not been altered or tampered with in transit."},
+
+{ term:	"MAN: Metropolitan Area Network", def: "A high-speed computer network that spans a larger geographic area than a Local Area Network (LAN) but a smaller area than a Wide Area Network (WAN)."},
+
+{ term:	"MBR: Master Boot Record", def: "A critical 512-byte information sector located at the absolute beginning (Sector 0) of a partitioned computer hard drive or storage device. It contains the essential startup code and partitioning layout required to boot the operating system."},
+
+{ term:	"MD5: Message Digest 5", def: "A widely used cryptographic hash function that takes an input string of any length and processes it into a fixed-size 128-bit digital fingerprint (typically expressed as a 32-digit hexadecimal number)."},
+
+{ term:	"MDF: Main Distribution Frame", def: "The primary, centralized telecommunications room that serves as the core networking hub for an entire building or campus. It acts as the central entry point where external connections from Internet Service Providers (ISPs) and phone companies connect into the building's internal private network."},
+
+{ term:	"MDM: Mobile Device Management", def: "A centralized security software solution used by IT departments to monitor, manage, and secure employee mobile devices. It allows administrators to uniformly configure settings, push applications, and enforce security policies across corporate and personal smartphones, tablets, and laptops."},
+
+{ term:	"MFA: Multifactor Authentication", def: "A multi-layered security verification method that requires a user to supply two or more distinct pieces of evidence before gaining access to an account or system."},
+
+{ term:	"MFD: Multifunction Device", def: "An all-in-one hardware device that consolidates multiple office utilities into a single machine."},
+
+{ term:	"MFP: Multifunction Printer", def: "A piece of office hardware that combines printing, copying, scanning, and faxing into a single machine."},
+
+{ term:	"ML: Machine Learning", def: "A branch of artificial intelligence (AI) focused on building systems that learn from data to improve their performance without being explicitly programmed."},
+
+{ term:	"MMS: Multimedia Message Service", def: "A standard telecommunications protocol used to send messages that include multimedia content—such as images, audio, video, and rich text—between mobile devices over a cellular network."},
+
+{ term:	"MOA: Memorandum of Agreement", def: "A formal document that outlines a cooperative relationship, shared objectives, and specific responsibilities between two or more parties. It establishes a conditional agreement where the actions of one party depend on the actions of another, often serving as the foundation for a future legally binding contract."},
+
+{ term:	"MOU: Memorandum of Understanding", def: "A formal document that describes a bilateral or multilateral agreement between two or more parties. It expresses a convergence of will between the parties, indicating an intended common line of action. It is often used to establish official partnerships before a legally binding contract is drafted."},
+
+{ term:	"MPLS: Multi-protocol Label Switching", def: "A high-performance routing technology used in enterprise networks and telecommunications backbones to speed up and shape the flow of network traffic. It assigns a short, fixed-length label to data packets when they enter the network."},
+
+{ term:	"MSA: Master Service Agreement", def: "A formal contract between two or more parties that establishes the overarching legal, financial, and operational terms that will govern all future transactions and projects."},
+
+{ term:	"MSCHAP: Microsoft Challenge handshake Authentication Protocol", def: "A proprietary network authentication protocol developed by Microsoft to validate user identities over dial-up, Virtual Private Network (VPN), and wireless connections."},
+
+{ term:	"MSP: Managed Service Provider", def: "A third-party company that remotely manages a customer's information technology (IT) infrastructure and end-user systems."},
+
+{ term:	"MSSP: Managed Security Service Provider", def: "A third-party company that provides outsourced monitoring and management of an organization's security devices and systems."},
+
+{ term:	"MTBF: Mean Time Between Failures", def: "A statistical metric that measures the average operating time of a repairable hardware system or component between one inherent failure and the next."},
+
+{ term:	"MTTF: Mean Time To Failure", def: "A statistical metric that measures the average lifespan or operational time of a non-repairable hardware component or asset before it completely breaks down. It quantifies product reliability and is expressed in hours."},
+
+{ term:	"MTTR: Mean Time To Recover", def: "Often used interchangeably with Mean Time To Resolution—is a business-critical DevOps and IT service management metric that measures the average time it takes to fully restore a system or application to normal operations after a failure or service outage."},
+
+{ term:	"MTU: Maximum Transmission Unit", def: "A networking term that defines the largest size packet or frame, measured in bytes, that a device can transmit across a network interface."},
+
+{ term:	"MX: Mail Exchange", def: "A critical type of resource record in the Domain Name System (DNS) that specifies the mail server responsible for accepting email messages on behalf of a domain name."},
+
+{ term:	"NAC: Network Access Control", def: "A centralized security solution that regulates access to a network by vetting devices before granting entry. It ensures that only authorized users with fully compliant devices can connect to corporate infrastructure."},
+
+{ term:	"NAT: Network Address Translation", def: "A networking method that rewrites the source or destination IP addresses in packet headers while they are in transit across a routing device. Its primary purpose is to allow multiple devices on a private local network (LAN) to share a single public IP address to access the internet."},
+
+{ term:	"NDA: Non-disclosure Agreement", def: "A legally binding contract that establishes a confidential relationship between parties to protect sensitive information from being shared with unauthorized outsiders."},
+
+{ term:	"NFC: Near Field Communication", def: "A short-range wireless connectivity technology that allows devices to exchange data when brought within 4 centimeters (1.5 inches) of each other. Operating at a radio frequency of 13.56 MHz, it enables quick, secure transactions and data sharing without requiring manual pairing or discovery setup."},
+
+{ term:	"NGFW: Next-generation Firewall", def: "An advanced, deep-packet inspection firewall that combines traditional network security with layer-7 application visibility, integrated intrusion prevention, and cloud-delivered threat intelligence."},
+
+{ term:	"NIDS: Network-based Intrusion Detection System", def: "A passive security system that monitors and analyzes all inbound and outbound network traffic across an entire network segment."},
+
+{ term:	"NIPS: Network-based Intrusion Prevention System", def: "An inline network security appliance that monitors and analyzes network traffic to intercept and block malicious activity in real time."},
+
+{ term:	"NIST: National Institute of Standards and Technology", def: "A non-regulatory agency of the United States Department of Commerce. Its primary mission is to promote U.S. innovation and industrial competitiveness by advancing measurement science, standards, and technology across various sectors, including cybersecurity, manufacturing, and nanotechnology."},
+
+{ term:	"NTFS: New Technology File System", def: "Microsoft's standard file system used by modern Windows operating systems to organize, store, and find files on a hard drive."},
+
+{ term:	"NTLM: New Technology LAN Manager", def: "A suite of legacy Microsoft security protocols used to authenticate user identities and secure communications on Windows networks."},
+
+{ term:	"NTP: Network Time Protocol", def: "An internet protocol used to synchronize the system clocks of computers and networking devices to a highly accurate time reference."},
+
+{ term:	"OAuth: Open Authorization", def: "An open-standard framework that allows an application to access a user's data or perform actions on another service without exposing the user's password."},
+
+{ term:	"OCSP: Online Certificate Status Protocol", def: "An internet protocol used by web browsers and applications to instantly check the revocation status of an X.509 digital certificate."},
+
+{ term:	"OID: Object Identifier", def: "A globally unique, standardized string of numbers used in computing and telecommunications to permanently name and identify any object, concept, or structural piece of data."},
+
+{ term:	"OP: Operating System", def: "The core system software that manages a computer's hardware resources and provides common services for software applications. It acts as an intermediary link between the user, the application software, and the physical computer hardware. Without an operating system, a computer cannot function."},
+
+{ term:	"OSINT: Open-source Intelligence", def: "The practice of collecting, analyzing, and making sense of data gathered from publicly available sources to answer a specific intelligence question."},
+
+{ term:	"OSPF: Open Shortest Path First", def: "A link-state routing protocol used by network routers to find the most efficient path for data packets to travel across a local area network (LAN) or wide area network (WAN)."},
+
+{ term:	"OT: Operational Technology", def: "The hardware and software used to monitor, coordinate, and control physical devices, processes, and infrastructure. It directly interacts with the physical world, managing machinery in factories, power grids, and water treatment plants."},
+
+{ term:	"OTA: Over the Air", def: "The wireless delivery of data, software updates, or media content to devices like smartphones, automobiles, and television receivers. It is technology that relies on cellular networks, Wi-Fi, or broadcast frequencies to transmit information seamlessly."},
+
+{ term:	"OVAL: Open Vulnerability Assessment Language", def: "An international, XML-based information security standard used to represent, assess, and report the machine state of computer systems."},
+
+{ term:	"OWASP: Open Worldwide Application Security Project", def: "A global, vendor-neutral nonprofit organization dedicated to improving the security of software."},
+
+{ term:	"P12: PKCS #12", def: "An industry-standard archive file format used to bundle and transfer multiple cryptographic objects—such as a private key, an X.509 public certificate, and its entire chain of trust—into a single, secure, password-protected file."},
+
+{ term:	"P2P: Peer-to-Peer", def: "A decentralized communications model where individual nodes (computers) in a network interact directly with one another to share resources, files, or processing power."},
+
+{ term:	"PaaS: Platform as a Service", def: "A cloud computing model where a third-party provider delivers a complete, cloud-based hardware and software development environment over the internet."},
+
+{ term:	"PAC: Proxy Auto Configuration", def: "A web browser technology used to automatically determine whether network traffic should go directly to a destination or be routed through a specific proxy server."},
+
+{ term:	"PAM: Privileged Access Management", def: "A cybersecurity strategy and framework of technologies used to protect, control, monitor, and audit elevated access to an organization’s most critical systems and data."},
+
+{ term:	"PAM: Pluggable Authentication Modules", def: "A flexible framework of low-level software libraries used in Linux, Unix, and macOS operating systems to centralize and manage user authentication services. Instead of requiring every software application to write its own custom code for checking passwords, it separates the application from the underlying authentication method."},
+
+{ term:	"PAP: Password Authentication Protocol", def: "A legacy, password-based authentication protocol used by network access servers to validate user identities before granting access to network resources. It operates primarily over the Point-to-Point Protocol (PPP) at the Data Link Layer (Layer 2) of the OSI model."},
+
+{ term:	"PAT: Port Address Translation", def: "An extension of Network Address Translation (NAT) that permits multiple devices on a local private network to map to a single public IP address simultaneously. It is also commonly referred to as NAT Overload."},
+
+{ term:	"PBKDF2: Password-based Key Derivation Function 2", def: "A cryptographic standard used to reduce the vulnerability of passwords to brute-force attacks."},
+
+{ term:	"PBX: Private Branch Exchange", def: "A private telephone network used within a company or organization."},
+
+{ term:	"PCAP: Packet Capture", def: "The process of intercepting and logging data traffic passing across a computer network."},
+
+{ term:	"PCI DSS: Payment Card Industry Data Security Standard", def: "A rigorous, globally recognized set of security requirements designed to ensure that all companies accepting, processing, storing, or transmitting credit card information maintain a secure network environment."},
+
+{ term:	"PDU: Power Distribution Unit", def: "A highly reliable, heavy-duty electrical component used to control, distribute, and balance electrical power from a central power supply to multiple individual network servers, storage arrays, and switches within an IT data center or server rack."},
+
+{ term:	"PEAP: Protected Extensible Authentication Protocol", def: "A secure network authentication protocol developed jointly by Microsoft, Cisco, and RSA Security. It acts as a wrapper that encapsulates the Extensible Authentication Protocol (EAP) within an encrypted and authenticated Transport Layer Security (TLS) tunnel."},
+
+{ term:	"PED: Personal Electronic Device", def: "A broad technical and regulatory term used to classify any portable, consumer-oriented electronic device capable of processing data, computing calculations, or establishing wireless communications."},
+
+{ term:	"PEM: Privacy Enhanced Mail", def: "An early 1990s Internet Engineering Task Force (IETF) standard designed to secure electronic mail using cryptographic techniques."},
+
+{ term:	"PFS: Perfect Forward Secrecy", def: "A feature of secure cryptographic communication protocols ensuring that if a server's long-term private key is compromised in the future, past sessions remain secure."},
+
+{ term:	"PGP: Pretty Good Privacy", def: "It is most famous for being the world's first widely used software to bring military-grade public-key cryptography to the general public, primarily used for securing email messages, encrypting local files, and signing software packages."},
+
+{ term:	"PHI: Personal Health Information", def: "Any individually identifiable data that relates to a person's physical or mental health status, healthcare provision, or payment for healthcare services."},
+
+{ term:	"PII: Personally Identifiable Information", def: "Any data that can be used to distinguish or trace an individual’s identity, either on its own or when combined with other personal or identifying information."},
+
+{ term:	"PIV: Personal Identity Verification", def: "A comprehensive U.S. federal security standard that defines the technical requirements for creating, issuing, and managing secure identity credentials."},
+
+{ term:	"PKCS: Public-Key Cryptography Standards", def: "A fundamental set of vendor-neutral protocols and data specifications designed to standardize how Public Key Infrastructure (PKI) components are structured, stored, and exchanged."},
+
+{ term:	"PKI: Public Key Infrastructure", def: "A comprehensive framework of hardware, software, policies, and cryptographic procedures used to create, manage, distribute, store, and revoke digital certificates and public-key pairs. "},
+
+{ term:	"POP: Post Office Protocol", def: "An application layer protocol used by email clients to retrieve messages from a remote mail server over a TCP/IP network. Layer 7 of the OSI model, Port 110/995."},
+
+
+{ term:	"POTS: Plain Old Telephone Service", def: "The traditional, analog voice transmission telephone system that has formed the backbone of global telecommunications since the late 19th century."},
+
+{ term:	"PPP: Point-to-Point Protocol", def: "A foundational Data Link Layer (Layer 2) communications protocol used to establish a direct connection between two network nodes over a physical link."},
+
+{ term:	"PPTP: Point-to-Point Tunneling Protocol", def: "A legacy network protocol used to create Virtual Private Networks (VPNs)."},
+
+{ term:	"PSK: Pre-Shared Key", def: "A shared cryptographic secret that is manually configured on two or more network devices before they attempt to establish a secure communication link."},
+
+{ term:	"PTZ: Pan-tilt-zoom", def: "A specialized type of robotic video camera capable of remote directional and magnification control."},
+
+{ term:	"PUP: Potentially Unwanted Program", def: "A software classification used by antivirus and security tools to identify applications that a user might have downloaded inadvertently, usually bundled alongside legitimate software."},
 
 ],
+
+"Acronyms R-Z": [
+
+    { term:	"RA: Recovery Agent", def: " an authorized enterprise user account or security administrator who has been cryptographically provisioned with the specialized keys necessary to decrypt data that was encrypted by another user."},
+
+{ term:	"RA: Registration Authority", def: "A critical component of a Public Key Infrastructure (PKI) that acts as the 'front desk'or verification agent for a Certificate Authority (CA)."},
+
+{ term:	"RACE: Research and Development in Advanced communications Technologies in Europe", def: "A major collaborative initiative launched in 1985 by the European Commission to modernize continental telecommunications infrastructure."},
+
+{ term:	"RAD: Rapid Application Development", def: "An agile software development methodology that prioritizes rapid prototyping and quick feedback over long, rigid planning cycles."},
+
+{ term:	"RADIUS: Remote Authentication Dial-in User Service", def: "A centralized networking protocol that operates on a client-server architecture to provide Authentication, Authorization, and Accounting (AAA) management for users connecting to a network."},
+
+{ term:	"RAID: Redundant Array of Inexpensive Disks", def: "a data storage virtualization technology that combines multiple physical hard drives or solid-state drives (SSDs) into a single logical unit."},
+
+{ term:	"RAS: Remote Access Server", def: "A specialized type of network server that acts as a secure, centralized gatekeeper for users trying to connect to a private corporate network from a remote location over the internet or a traditional telecommunications link."},
+
+{ term:	"RAT: Remote Access Trojan", def: "A highly dangerous type of malware designed to grant cybercriminals complete, covert control over a compromised computer or network device."},
+
+{ term:	"RBAC: Role-based Access Control", def: "A security framework that regulates access to computer systems, applications, and networks based on an individual's specific job role or function within an organization."},
+
+{ term:	"RBAC: Rule-based Access Control", def: "A security management framework that regulates system and data access based on predefined rules, conditions, or constraints created by a system administrator."},
+
+{ term:	"RC4: Rivest Cipher version 4", def: "It functions by generating a pseudorandom stream of bits (a keystream) from a variable-length key and combining it with plain text using a bitwise XOR (Exclusive OR) operation to create cipher text."},
+
+{ term:	"RDP: Remote Desktop Protocol", def: "A proprietary network communications protocol developed by Microsoft that allows a user to securely connect to, view, and control a graphical user interface (GUI) on a remote computer over a network connection. Layer 7 of the OSI model, mainly TCP port 3389."},
+
+{ term:	"RFID: Radio Frequency Identifier", def: "A wireless communication technology that uses electromagnetic fields to automatically identify and track tags attached to objects, animals, or people."},
+
+{ term:	"RIPEMD: RACE Integrity Primitives Evaluation Message Digest", def: "A family of cryptographic hash functions developed in Europe to ensure data integrity and security"},
+
+{ term:	"ROI: Return on Investment", def: "A fundamental financial metric used to evaluate the efficiency or profitability of an investment, or to compare the efficiency of several different investments."},
+
+]
 
 };
 
