@@ -439,7 +439,7 @@
 
 { term:	"RA: Recovery Agent", def: " an authorized enterprise user account or security administrator who has been cryptographically provisioned with the specialized keys necessary to decrypt data that was encrypted by another user."},
 
-{ term:	"RA: Registration Authority", def: "A critical component of a Public Key Infrastructure (PKI) that acts as the "front desk" or verification agent for a Certificate Authority (CA)."},
+{ term:	"RA: Registration Authority", def: "A critical component of a Public Key Infrastructure (PKI) that acts as the 'front desk' or verification agent for a Certificate Authority (CA)."},
 
 { term:	"RACE: Research and Development in Advanced communications Technologies in Europe", def: "A major collaborative initiative launched in 1985 by the European Commission to modernize continental telecommunications infrastructure."},
 
